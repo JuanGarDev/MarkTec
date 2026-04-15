@@ -10,10 +10,12 @@ body{
     linear-gradient(19deg, 
     #380e22 0%, #531432 45%, #6D1A42 85%);
     color: #fcfcfc;
+
+    min-height: 100vh;
     text-align: center;
     align-items: center;
     font-family: 'Barlow Condensed', sans-serif;
-    background-size: 250% 20%;
+    background-size: 250% 200%;
     animation: movimiento 7s linear infinite alternate-reverse;
 }   
 
@@ -29,8 +31,9 @@ body{
 
 
 h1{
-    font-size: 5em;
+    font-size: 3em;
     letter-spacing: 5px;
     font-weight: bold;
-
  }
+
+ 
