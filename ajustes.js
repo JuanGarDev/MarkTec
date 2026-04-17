@@ -1,5 +1,4 @@
 const logo = document.getElementById('logo-animado');
-const texto = document.getElementById('texto-bienvenida');
 
 setTimeout(() => {
     
@@ -7,12 +6,9 @@ setTimeout(() => {
     
     setTimeout(() => {
         logo.classList.add('hidden');    
-        texto.classList.remove('hidden'); 
-        
-        texto.classList.add('animate__animated', 'animate__fadeInUp');
     }, 500);
 
-}, 3000); 
+}, 3500); 
 
 
 const presentacion = document.getElementById('presentacion');
@@ -22,10 +18,18 @@ setTimeout(() => {
         presentacion.classList.add('animate__animated', 'animate__fadeOut');
         setTimeout(() => {
                 presentacion.classList.add('hidden');
-                
-                /* Aquí es donde el resto de tu HTML (productos, botones, etc.)
-                   subirá automáticamente porque "presentacion" ya no ocupa espacio.
-                */
-            }, 1000);
-    }, 4000)
-}, 6000);
+            }, 500);
+    }, 1000)
+}, 2000);
+
+const barra = document.getElementById('barra-nav');
+
+setTimeout(() => { 
+    setTimeout(() => {
+        barra.classList.add('animate__animated', 'animate__fadeIn');
+        setTimeout(() => {
+                barra.classList.remove('hidden');
+            }, 500);
+    }, 1000)
+}, 2000);
+

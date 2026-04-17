@@ -31,6 +31,10 @@ header .contenedor{
 
 }
 
+.cabecera{
+    background-color: #E3592B;
+}
+
 .contenedor-anidado{
     display: flex;
     font-size: 12px;
@@ -87,11 +91,33 @@ header .contenedor{
     animation-iteration-count: infinite; 
 }
 
-.texto-celular {
-    text-align: center;
-    color: #621132; 
-}
-
 .hidden {
     display: none !important;
+}
+
+.navegador {
+  display: flex;
+  width: 80%;
+  max-width: 600px;
+  margin: 10px auto;
+  border: 1px solid #000000;
+  border-radius:7px; 
+  overflow: hidden;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  outline: none; 
+  font-size: 16px;
+}
+
+button {
+  background: #E3592B;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  color: #666;
 }

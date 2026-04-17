@@ -8,7 +8,7 @@ body{
     scroll-behavior: smooth;
     background-image: 
     linear-gradient(19deg, 
-    #380e22 0%, #531432 45%, #6D1A42 85%);
+    #e5e8eb 0%, #DAE1E8 45%, #DADCE7 85%);
     color: #fcfcfc;
 
     min-height: 100vh;
@@ -35,5 +35,6 @@ h1{
     letter-spacing: 5px;
     font-weight: bold;
  }
+
 
  
