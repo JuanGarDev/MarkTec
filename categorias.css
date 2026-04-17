@@ -1,0 +1,27 @@
+
+
+.categ{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;    
+    
+    margin: 0;
+    background-color: #e2e6e6;
+    border-radius: 15%;
+}
+
+.efecto-cat {
+    color: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    background-image: btn-color;
+    background-size: 200% auto;
+    background-position: left top;
+    border-color: transparent;
+    color: #464646;
+    
+}
+
+.efecto-cat:hover {
+        background-position: right bottom;
+        color: #000;
+    }

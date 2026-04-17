@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="cajas.css">
+  <link rel="stylesheet" href="botones.css">
+  <link rel="stylesheet" href="categorias.css">
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Teschi Market</title>
 </head>
 
@@ -47,19 +50,34 @@
         <img id="logo-animado" src="img-MarkTec2.png" alt="Mascota Libélula TESCHI" class="imagen-ajustable animate__animated animate__pulse img-animacion">
     </div>
 
-    <div id="barra-nav" class="contenedor hidden">
+    <div id="barra-nav" class="contenedor cont-nav hidden">
         <form action="/buscar" method="GET" class="navegador">
-        <input type="text" name="q" placeholder="Buscar productos, marcas y más..." required>
-        <button type="submit">
-        <i class="fa fa-search"></i> </button>
-</form>
+            <input type="text" name="q" placeholder="Buscar productos, marcas y más..." required>
+            <button type="submit" class="btn liquid">
+            <i class="fa fa-search"></i> </button>
+        </form>
     </div>
 
 
-    <div id="contenido">
-        
-    </div>
+    <div id="categorias" class="contenedor catgo hidden">
+        <div id="categorias1">
 
+            <div id="Celulares" class="contenedor categ ">
+                <h2>Celulares</h2>
+            </div>
+            <div id="Electronica y audio"></div>
+                <h2>Electronica</h2>
+            <div id="Herramientas"></div>
+                <h2>Herramientas</h2>
+            <div id="Libros"></div>
+            <div id="Ropa y calzado"></div>
+
+        </div>
+        <div id="categorias2">
+
+        </div>
+    </div>
+    
 
 
 

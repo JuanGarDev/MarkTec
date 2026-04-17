@@ -9,16 +9,13 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-
 }
-
-
 
 .contenedor{
     font-size: 12px;
     display: grid;
     place-items: center;
-    padding: 2vh 10px ;
+    padding: 1.5vh 10px ;
 } 
 
 header .contenedor{
@@ -95,29 +92,39 @@ header .contenedor{
     display: none !important;
 }
 
-.navegador {
-  display: flex;
-  width: 80%;
-  max-width: 600px;
-  margin: 10px auto;
-  border: 1px solid #000000;
-  border-radius:7px; 
-  overflow: hidden;
+.cont-nav{
+    padding: .5vh 10px ;
+}
+
+.navegador{
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 1px solid #000000;
+    border-radius:7px; 
+    overflow: hidden;
 }
 
 input[type="text"] {
-  flex: 1;
-  padding: 10px 15px;
-  border: none;
-  outline: none; 
-  font-size: 16px;
+    flex: 1;
+    padding: 8px 15px;
+    border: none;
+    outline: none; 
+    font-size: 12px;
 }
 
-button {
-  background: #E3592B;
-  border: none;
-  padding: 10px 25px;
-  cursor: pointer;
-  border-left: 1px solid #eee;
-  color: #666;
+
+
+
+.navegador:focus-within {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-color: #454A63; 
+}
+
+
+
+
+.catgo{
+    background-image: radial-gradient(circle, #c1e9a0, #95EB4D);
 }

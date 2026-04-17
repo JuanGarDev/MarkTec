@@ -23,12 +23,15 @@ setTimeout(() => {
 }, 2000);
 
 const barra = document.getElementById('barra-nav');
+const categorias = document.getElementById('categorias');
 
 setTimeout(() => { 
     setTimeout(() => {
         barra.classList.add('animate__animated', 'animate__fadeIn');
+        categorias.classList.add('animate__animated', 'animate__fadeIn');
         setTimeout(() => {
                 barra.classList.remove('hidden');
+                categorias.classList.remove('hidden');
             }, 500);
     }, 1000)
 }, 2000);
