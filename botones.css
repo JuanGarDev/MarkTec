@@ -9,18 +9,6 @@ button {
     cursor: pointer;
     overflow: hidden;
     transition: all 0.3s ease;
-    color: #95EB4D;
+    background-color: #E3592B;
 }
 
-.liquid {
-    background: linear-gradient(#e5734d 0 0) no-repeat calc(200% - var(--p, 0%))
-        100% / 200% var(--p, 0.2em);
-    transition: 0.3s var(--t, 0s),
-        background-position 0.3s calc(0.3s - var(--t, 0s));
-}
-
-.liquid:hover {
-    --p: 100%;
-    --t: 0.3s;
-    color: #fff;
-}

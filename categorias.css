@@ -1,14 +1,22 @@
 
 
+.catgo{
+    background-image: radial-gradient(circle, #c1e9a0, #95EB4D);
+
+}
+
 .categ{
-    display: flex ;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center;    
-    
-    margin: 0;
     background-color: #e2e6e6;
-    border-radius: 15%;
+    border-radius: 12%;
+}
+
+.sub{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    place-items: center;
+    padding: 1.5vh 10px;
+    gap: 10px;
 }
 
 .efecto-cat {
@@ -25,3 +33,5 @@
         background-position: right bottom;
         color: #000;
     }
+
+ 

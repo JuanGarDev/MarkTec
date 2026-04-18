@@ -29,7 +29,7 @@ header .contenedor{
 }
 
 .cabecera{
-    background-color: #E3592B;
+    background-color: #fcf8f7;
 }
 
 .contenedor-anidado{
@@ -93,6 +93,7 @@ header .contenedor{
 }
 
 .cont-nav{
+    background-color: #fcf8f7;
     padding: .5vh 10px ;
 }
 
@@ -124,7 +125,3 @@ input[type="text"] {
 
 
 
-
-.catgo{
-    background-image: radial-gradient(circle, #c1e9a0, #95EB4D);
-}
