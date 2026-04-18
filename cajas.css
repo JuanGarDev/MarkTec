@@ -95,6 +95,7 @@ header .contenedor{
 .cont-nav{
     background-color: #fcf8f7;
     padding: .5vh 10px ;
+    margin-bottom: 10px;
 }
 
 .navegador{
