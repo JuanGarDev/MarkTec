@@ -39,3 +39,19 @@ setTimeout(() => {
     }, 1000)
 }, 2000);
 
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        } else {
+            entry.target.classList.remove('visible');
+        }
+    });
+}, {
+    threshold: 0.5 
+});
+
+const cajas = document.querySelectorAll('.animacion');
+cajas.forEach(caja => observer.observe(caja));

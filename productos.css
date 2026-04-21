@@ -17,9 +17,8 @@
     display: grid;
     place-items: center;
     padding: 20px;
-    border-radius: 25px;
     background-color: #b42400;
-
+ 
 }
 
 
@@ -42,16 +41,12 @@
 }
 
 
-#productos-fila {
-    display: grid;
-    gap: 20px;
-    width: 100%;
-    box-sizing: border-box;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    
-    background: linear-gradient(270deg, #95EB4D, #DADCE7, #95EB4D);
-    background-size: 200% 100%;
-    animation: movimientoFondo 4s ease infinite;
-    padding: 25px;
-    border-radius: 15px;
+.animacion{
+    border-radius: 10px;
+    transition: border-radius 0.6s ease-out; 
+    will-change: border-radius;
+
+}
+.animacion.visible {
+    border-radius: 25px; 
 }
