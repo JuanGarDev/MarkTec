@@ -24,11 +24,12 @@
 
 
 #cont_productos {
+    background-color: bisque;
     display: grid;
     gap: 20px;
     width: 100%;
     box-sizing: border-box;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: repeat(4, 1fr); 
 
     padding: 25px;
     border-radius: 15px;
