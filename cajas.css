@@ -16,7 +16,9 @@
     display: grid;
     place-items: center;
     padding: 1.5vh 10px ;
-} 
+}
+
+
 
 header .contenedor{
     display: flex ;
