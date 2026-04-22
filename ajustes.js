@@ -25,16 +25,19 @@ setTimeout(() => {
 const barra = document.getElementById('barra-nav');
 const categorias = document.getElementById('categorias');
 const productos = document.getElementById('productos')
+const carrousel = document.getElementById('carrousel')
 
 setTimeout(() => { 
     setTimeout(() => {
         barra.classList.add('animate__animated', 'animate__fadeIn');
         categorias.classList.add('animate__animated', 'animate__fadeIn');
         productos.classList.add('animate__animated', 'animate__fadeIn');
+        carrousel.classList.add('animate__animated', 'animate__fadeIn');
         setTimeout(() => {
                 barra.classList.remove('hidden');
                 categorias.classList.remove('hidden');
                 productos.classList.remove('hidden');
+                carrousel.classList.remove('hidden');
             }, 500);
     }, 1000)
 }, 2000);
@@ -53,5 +56,5 @@ const observer = new IntersectionObserver((entries) => {
     threshold: 0.5 
 });
 
-const cajas = document.querySelectorAll('.animacion');
+const cajas = document.querySelectorAll('.animacion2');
 cajas.forEach(caja => observer.observe(caja));
